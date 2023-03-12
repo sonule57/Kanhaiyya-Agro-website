@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbarnav ul li:hover {
+    background-color:green !important;
+    border-radius: 10px !important;
+}
+/* image */
+.home-image{
+    /* border: 1px solid green; */
+}
+/* home image */
+.carousel-item img{
+    height: 90vh;
+    width: 100vw;
+
+}
+.grid-cols{
+    display: flex;
+    justify-content: center;
+    /* transition: all ease .5s; */
+
+}
+/* using this property transfrom */
+.grid-cols img:hover{
+    transform: scale(0.9);
+    transition: all ease .5s;
+
+}
+/* buttom using */
+.btn1{
+
+    background-color: white !important;
+    color: black !important;
+   
+
+}
+.btn1:hover{
+
+    background-color: darkgreen !important;
+    color: white !important;
+}
+.btn2{
+    /* background-color:orange !important ; */
+    color: orange !important;
+}
+/* -----------------------------imformation----------------- */
+.information{
+
+background-image: url("https://kanhaiyyaagro.com/images/About-us-BG.jpg");
+height: 500px;
+}
+.logo{
+
+    /* border: 1px solid red; */
+}
+.logo-cols img{
+
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+}
+/* .card1 img{
+    margin-left: 20px;
+    
+} */
+.active{
+    background-color: green;
+    border-radius: 10px;
+}
+/* footer */
+.footer-cols {
+
+    /* border: 1px solid green; */
+    margin-left: auto;
+
+}
+.call {
+
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: white;
+
+}
+.footer-bottom-cols {
+    /* border: 1px solid skyblue; */
+    background-color:green;
+}
+/* footer usefull links  */
+.para-p1:hover{
+    color: orange !important;
+}
+.para-p2:hover{
+    color: orange !important;
+}
+.para-p3:hover{
+    color: orange !important;
+}
+.para-p4:hover{
+    color: orange !important;
+}
+.para-p5:hover{
+    color: orange !important;
+}
+/* about page coursor */
+.card-text{
+    justify-content: center;
+    font-size: small;
+}
+/* ---------------------------prodcut page-------------------- */
+/* .prodcut{
+
+    border: 1px solid red;
+} */
+.product-cols{
+
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+}
+.prodcut img{
+
+    height: 400px;
+    width: 300px;
+}
+.card1 img{
+
+    transition: all ease .5s;
+}
+.card1 img:hover{
+
+    transform: scale(0.9);
+}
+.Purchase{
+    justify-content: center;
+    font-size: small;
+}
+.note{
+    justify-content: center;
+    font-size: x-small;
+}
+/* -------------------------------contact --------------------- */
+/* .contact{
+
+    border: 1px solid red;
+}
+.contact-cols{
+
+    border: 1px solid green;
+} */
+.btn3{
+
+    background-color: white !important;
+    color: black !important;
+}
+.btn3:hover{
+
+    background-color: green !important;
+}
